@@ -1,7 +1,7 @@
 import axios from "axios";
 import { defaultHeader } from "./Header";
 
-const API_BASE_URL = "http://localhost:3000/api/courses";
+const API_BASE_URL = "https://oluap-courses-svc-backend.onrender.com/api/courses";
 const TOKEN = localStorage.getItem('access_token');
 
 export const fetchCourses = async () => {

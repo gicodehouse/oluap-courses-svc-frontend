@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:3000/api/auth/login";
+const API_BASE_URL = "https://oluap-courses-svc-backend.onrender.com/api/auth/login";
 
 export const fetchLogin = async (data) => {
     try {
